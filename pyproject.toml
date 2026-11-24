@@ -1,0 +1,13 @@
+[project]
+name = "sec-key-ceremony"
+version = "0.1.0"
+description = "Security-focused key ceremony record bugfix exercise"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
